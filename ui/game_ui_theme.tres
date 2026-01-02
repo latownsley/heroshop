@@ -1,0 +1,38 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://c6qlhkwvvbyji"]
+
+[ext_resource type="Texture2D" uid="uid://uut232rb0uky" path="res://assets/ui/Sprout Lands - UI Pack - Premium pack/UI Sprites/Other UI sprites/UI Big Play Button.png" id="1_cg6tl"]
+[ext_resource type="FontFile" uid="uid://xpn866c8yqic" path="res://assets/fonts/im-fell-english/IMFeENit28P.ttf" id="2_qefke"]
+[ext_resource type="Texture2D" uid="uid://c2bak0so1fkjk" path="res://assets/ui/Sprout Lands - UI Pack - Premium pack/UI Sprites/ALL UI ASSETS on one sheet.png" id="3_pl6x3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qefke"]
+atlas = ExtResource("1_cg6tl")
+region = Rect2(2, 0, 93, 31)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cg6tl"]
+texture = SubResource("AtlasTexture_qefke")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 6.0
+region_rect = Rect2(0, 1, 92, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j3ku7"]
+atlas = ExtResource("3_pl6x3")
+region = Rect2(786, 30, 29, 31)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_esvmx"]
+texture = SubResource("AtlasTexture_j3ku7")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 6.0
+region_rect = Rect2(4, 6, 20, 21)
+
+[resource]
+DayAndNightCounterPanel/base_type = &"PanelContainer"
+DayAndNightCounterPanel/styles/panel = SubResource("StyleBoxTexture_cg6tl")
+DayAndNightLabel/base_type = &"Label"
+DayAndNightLabel/font_sizes/font_size = 61
+DayAndNightLabel/fonts/font = ExtResource("2_qefke")
+DayAndNightMoonPanel/base_type = &"PanelContainer"
+DayAndNightMoonPanel/styles/panel = SubResource("StyleBoxTexture_esvmx")

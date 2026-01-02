@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://bfd5r0uj371yu"]
+
+[ext_resource type="PackedScene" uid="uid://bi53id0w05u86" path="res://ui/day_and_night_manager.tscn" id="1_276te"]
+[ext_resource type="PackedScene" uid="uid://d1wgod2rjyneq" path="res://ui/inventory.tscn" id="2_546lt"]
+
+[node name="HUD" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="DayAndNightManager" parent="." instance=ExtResource("1_276te")]
+layout_mode = 1
+offset_left = 1291.0
+offset_top = 439.0
+offset_right = -32.0
+offset_bottom = -517.0
+
+[node name="Inventory" parent="." instance=ExtResource("2_546lt")]
+layout_mode = 1
+offset_left = 1303.0
+offset_top = 553.0
+offset_right = -21.0
+offset_bottom = -33.0

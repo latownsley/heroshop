@@ -1,0 +1,3 @@
+extends Node
+
+var font_credits: String = "Font: IM Fell English \n © 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL English Roman \n under the SIL Open Font License, Version 1.1.\n https://font.download/font/im-fell-english \n\n Font: Canterbury Regular \n Copyright © Typographer Mediengestaltung, 2001. All rights reserved. \n under the 1001Fonts Free For Commercial Use License (FFC) \n https://www.1001fonts.com/canterbury-font.html \n\n Font: Magic School Font Family \n © 2004 Michael Hagemann www.FontMesa.com All Rights Reserved \n Magic School is licensed under the 1001Fonts Free For Commercial Use License (FFC) \n https://www.1001fonts.com/magic-school-font.html "
